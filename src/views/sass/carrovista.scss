@@ -1,0 +1,12 @@
+// Variables
+$primary-bg: linear-gradient(to right, #093028, #237A57);
+$text-color: #e0e0e0;
+$accordion-bg: rgba(255, 255, 255, 0.1);
+$accordion-hover-bg: rgba(255, 255, 255, 0.2);
+
+.carrovista {
+  background: $primary-bg;
+  max-width: 100%;
+  min-height: 90vh;
+  padding: 20px;
+}

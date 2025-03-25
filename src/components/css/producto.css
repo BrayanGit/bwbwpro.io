@@ -1,0 +1,29 @@
+.producto-contenedor {
+  background: #093028;
+  background: linear-gradient(to right, #093028, #237A57);
+  max-width: 100%;
+  min-height: 90vh;
+  padding: 20px;
+  border-radius: 0px;
+}
+.producto-card {
+  background-color: gray;
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  height: 100%; /* Garantiza que todas las tarjetas ocupen el mismo alto dentro de su columna */
+}
+.producto-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+.producto-imagen {
+  height: 180px; /* Fija la altura de la imagen */
+  object-fit: cover; /* Ajusta la imagen dentro de su contenedor */
+}
+.producto-texto {
+  text-align: justify;
+}
+.text-light {
+  color: #ffffff !important;
+}

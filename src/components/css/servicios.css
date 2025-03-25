@@ -1,0 +1,8 @@
+.serv-estilo {
+  background: #093028;
+  background: linear-gradient(to right, #093028, #237A57);
+  max-width: 100%;
+  min-height: 90vh;
+  padding: 20px;
+  border-radius: 0px;
+}
