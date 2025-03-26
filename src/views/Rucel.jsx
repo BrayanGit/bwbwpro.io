@@ -4,19 +4,19 @@ import { Carousel } from 'react-bootstrap';
 function Rucel() {
   const slides = [
     {
-      src: 'img/tactico2.png',
+      src: '/img/tactico2.png',
       alt: 'Primer Slide',
       title: 'Tactico 2',
       caption: 'AirSoft',
     },
     {
-      src: 'img/tactico3.png',
+      src: '/img/tactico3.png',
       alt: 'Second Slide',
       title: 'Tactico 3',
       caption: 'AirSoft',
     },
     {
-      src: 'img/tactico4.png',
+      src: '/img/tactico4.png',
       alt: 'Tree Slide',
       title: 'Tactico 4',
       caption: 'AirSoft',
