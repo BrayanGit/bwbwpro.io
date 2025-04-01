@@ -19,11 +19,11 @@ function NavModel() {
         {/* Logo */}
         <Navbar.Brand as={Link} to="/" className="d-flex align-items-center">
           <img
-            src={`${process.env.PUBLIC_URL}/logo.png`}
+            src={process.env.PUBLIC_URL + "/logo.png"}
             alt="Logo"
             style={{ height: "40px", borderRadius: "50px" }}
           />
-          
+
           <div className="ms-2 d-flex flex-column lh-1">
             <span style={{ fontSize: "1rem", fontWeight: "bold", color: "#fff" }}>BW&BW</span>
             <span style={{ fontSize: "0.8rem", color: "#bbb" }}>BodyProtection</span>
