@@ -19,7 +19,7 @@ function NavModel() {
         {/* Logo */}
         <Navbar.Brand as={Link} to="/" className="d-flex align-items-center">
           <img
-            src={process.env.PUBLIC_URL + "/logo.png"}
+            src={`${import.meta.env.BASE_URL}logo.png`}
             alt="Logo"
             style={{ height: "40px", borderRadius: "50px" }}
           />
