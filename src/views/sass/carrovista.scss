@@ -10,3 +10,24 @@ $accordion-hover-bg: rgba(255, 255, 255, 0.2);
   min-height: 90vh;
   padding: 20px;
 }
+.tabla-carro {
+  .tabla-carro {
+    font-size: 0.9rem;
+  
+    th, td {
+      padding: 0.4rem 0.5rem !important;
+      text-align: center;
+      vertical-align: middle;
+    }
+    .btn {
+      border-radius: 50px;
+      padding: 0.25rem 0.5rem;
+      font-size: 0.8rem;
+    }
+    td:last-child {
+      display: flex;
+      justify-content: center;
+      gap: 4px;
+    }
+  }  
+}
