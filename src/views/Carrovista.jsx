@@ -45,7 +45,7 @@ function CarroVista() {
               <td>${producto.precio * producto.cantidad}</td>
               <td>
                 <Button style={{ borderRadius: "50px" }} variant="success" onClick={() => incrementarCantidad(producto.id)}>+</Button>{' '}
-                <Button style={{ borderRadius: "50px" }} variant="warning" onClick={() => decrementarCantidad(producto.id)}>-</Button>{' '}
+                <Button style={{ borderRadius: "50px" }} variant="success" onClick={() => decrementarCantidad(producto.id)}>-</Button>{' '}
                 <Button style={{ borderRadius: "50px" }} variant="danger" onClick={() => eliminarProducto(producto.id)}>x</Button>
               </td>
             </tr>

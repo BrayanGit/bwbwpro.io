@@ -41,7 +41,7 @@ function FormularioVista() {
   };
 
   return (
-    <Container className="d-flex justify-content-center align-items-center min-vh-100">
+    <Container className="d-flex justify-content-center align-items-center min-vh-100 formulariovista">
       <Card className="p-4 shadow-lg" style={{ maxWidth: "450px", width: "100%" }}>
         <Card.Body>
           <Card.Title className="text-center mb-3">Formulario de Compra</Card.Title>
@@ -89,7 +89,7 @@ function FormularioVista() {
               <Form.Label>Método de Acreditación</Form.Label>
               <Form.Select name="metodoAcred" value={formData.metodoAcred} onChange={handleChange} required>
                 <option value="">Selecciona una opción</option>
-                <option value="guardia">Guardia de Seguridad Nacional</option>
+                <option value="guardia">Guardia de Seguridad</option>
                 <option value="militar">Personal Militar</option>
                 <option value="club">Miembro del Club</option>
               </Form.Select>
