@@ -41,7 +41,7 @@ function FormularioVista() {
   };
 
   return (
-    <Container className="bg-dark">
+    <Container className="d-flex justify-content-center bg-dark formulario">
       <Card className="p-4 shadow-lg" style={{ maxWidth: "450px", width: "100%" }}>
         <Card.Body>
           <Card.Title className="text-center mb-3">Formulario de Compra</Card.Title>
