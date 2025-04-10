@@ -26,7 +26,7 @@ function CarroVista() {
       <br />
       <br />
       <h2 className="text-center my-4">Carro de Compras</h2>
-      <Table striped bordered hover className="tabla-carro">
+      <Table striped bordered hover size="sm" className="tabla-carro">
         <thead>
           <tr>
             <th>Producto</th>
